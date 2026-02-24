@@ -45,4 +45,4 @@ npm install gsap @gsap/react react-responsive
 
 ## 🔗 Live Demo
 
-[View on GitHub](https://github.com/Sherif-altiby/animated-landing-page-gsap)
+[View on vercel](https://animated-landing-page-gsap.vercel.app/)
