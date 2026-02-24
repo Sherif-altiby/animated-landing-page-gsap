@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍹 Mojito — Animated Cocktail Landing Page
 
-## Getting Started
+An animated cocktail landing page built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **GSAP**. Features smooth scroll-driven animations, video scrubbing, parallax effects, and text splitting animations.
 
-First, run the development server:
+## ✨ Features
 
+- **GSAP SplitText** — animated character-by-character title entrance
+- **ScrollTrigger** — scroll-driven video scrubbing and parallax leaf animations
+- **Pinned video section** — video plays frame-by-frame as you scroll
+- **Responsive design** — mobile-first layout with adaptive animation values
+- **Noisy texture aesthetic** — unique visual style for the hero section
+
+## 🛠️ Tech Stack
+
+- [Next.js 15](https://nextjs.org/) — React framework
+- [TypeScript](https://www.typescriptlang.org/) — type safety
+- [Tailwind CSS](https://tailwindcss.com/) — utility-first styling
+- [GSAP](https://gsap.com/) — animations (SplitText, ScrollTrigger)
+- [react-responsive](https://github.com/yocontra/react-responsive) — responsive breakpoint hooks
+
+## 🚀 Getting Started
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
+```
+app/
+├── components/
+│   └── Hero.tsx       # Main hero section with all GSAP animations
+├── globals.css        # Global styles and noisy texture
+└── page.tsx           # Root page
+public/
+├── images/            # Leaf assets
+└── videos/            # Hero background video
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Key Dependencies
+```bash
+npm install gsap @gsap/react react-responsive
+```
 
-## Learn More
+## 🔗 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[View on GitHub](https://github.com/Sherif-altiby/animated-landing-page-gsap)
